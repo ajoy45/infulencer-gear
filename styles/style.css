@@ -7,6 +7,9 @@ body{
 .container{
     width: 1200px;
 }
+.color{
+    color: gold;
+}
 
 /* header style */
 .main-header{
@@ -80,4 +83,73 @@ hr{
     margin-left: 5.83em;
     margin-top: 23px;
     margin-bottom: 22px;
+}
+/* popular collection style */
+.popular-section{
+    margin-top: 80px;
+}
+.popular-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 5.83em;
+    row-gap: 20px;
+
+}
+.collection{
+    width: 329px;
+    background-color:white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.collection-img img{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+.collection-details{
+    margin-left: 14px;
+}
+.collection-details h3{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: -19px;
+}
+.collection-details p{
+    width: 196px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.see-more{
+    float: right;
+    border: none;
+    margin-right: 34px;
+    margin-top: 30px;
+    background: none;
+}
+.see-more a{
+    text-decoration: none;
+    color: red;
+}
+/* zoom image style */
+.zoom-img{
+    width: 1200px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.zoom-img img{
+    transition: transform .9s ease-in-out;
+}
+.zoom-img img:hover{
+    transform: scale(.5);
+}
+.zoom-img h2{
+    font-size: 24px;
+    font-weight: bold;
+
 }
