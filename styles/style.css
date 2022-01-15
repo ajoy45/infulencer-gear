@@ -4,6 +4,9 @@ body{
    font-family: 'Poppins', sans-serif;
    font-family: 'Slabo 27px', serif;
 }
+.container{
+    width: 1200px;
+}
 
 /* header style */
 .main-header{
@@ -24,4 +27,57 @@ ul li a{
     color: black;
     font-size: 16px;
     font-weight: 600;
+}
+/* start-journey */
+.start-jurney{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.jurney-details {
+    width: 582px;
+    margin-left: 5.83em;
+
+}
+.jurney-details h2{
+    font-size: 52px;
+    font-weight: bold;
+}
+.jurney-details p{
+    font-size: 21px;
+    font-weight:600;
+    margin-top: -12px;
+}
+.jurney-details button a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+}
+.jurney-details button{
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.jurney-details button i{
+    color: white;
+}
+.jurney-image{
+    width: 440px;
+}
+hr{
+    width: 1032px;
+}
+/* logo style */
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5.83em;
+    margin-top: 23px;
+    margin-bottom: 22px;
 }
