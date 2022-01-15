@@ -156,6 +156,7 @@ hr{
 /* footer style */
 .footer{
     background: #0a0826;
+    
 }
 .footer-area{
     text-align: center;
@@ -179,4 +180,73 @@ hr{
 .text-center i{
     color: green;
     padding-bottom: 23px;
+}
+/* responsive style */
+/* mobile view */
+@media only screen and (max-width:688px) {
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .start-jurney {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .jurney-details h2 {
+        font-size: 29px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    .jurney-details p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: -12px;
+        width: 47%;
+    }
+    .jurney-image {
+        width: 63%;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 5.83em;
+        row-gap: 20px;
+        justify-items: center;
+    }
+    .footer {
+        width: 1200px;
+    }
+    
+    .see-more {
+        float: right;
+        border: none;
+        margin-right: 484px;
+        background: none;
+        font-size: 35px;
+    }
+    
+}
+/* tap view */
+@media  only screen and (max-width:992px){
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 5.83em;
+        row-gap: 20px;
+    }
+    .footer{
+        width: 1200px;
+    }
+    
 }
